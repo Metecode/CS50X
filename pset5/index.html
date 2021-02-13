@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My First Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    
+    <body style="background-color:powderblue;">
+           
+           <p 
+           style ="background-color:Black;padding:10px;"> <a href="index.html">Ana sayfa</a>
+           &#160;
+           <a href="muzik.html">Müzik</a> &#160;      
+           <a href="yemek.html">Yemek</a> &#160;
+        </p>
+        <h3 style="color:#565ab1;"> Bu benim <b>ilk</b> web sayfam<i>!</i></h1>
+            <p>Herkese merhaba ben Mete Uçar , <a href="https://www.sakarya.edu.tr">Sakarya Üniversitesi</a> bilgisayar mühendisliği hazırlık sınıfı öğrencisiyim.
+                <a href="https://tr.wikipedia.org/wiki/Aydın">Aydında</a>  yaşıyorum.
+            </p>
+
+
+            <p><i>Mezuniyetimden bir fotoğraf</i></p>
+            <img src="resim1.JPG" alt="Trulli" width="250" height="300">
+
+            <p>Sayfamı beğendiyseniz beğen butonuna tıklamayı unutmayınız &#128512; <br>
+            <script type="text/javascript">
+                var clicks = 0;
+                function linkClick(){
+                    document.getElementById('clicked').value = ++clicks;
+                }
+                document.write('<a href="#" onclick="linkClick()">Beğendim!</a>');
+                
+                </script> <br> Bu sayfayı <input id="clicked" size="3" onfocus_fckprotectedatt="%20onfocus%3D%22this.blur()%3B%22" value="0" type="text" />kişi beğendi.
+
+        <footer style= "font-size:small ;text-align: center;">
+        Copyright &#169; Mete Ucar
+    </footer>
+    
+    </body>
+    
+</html>
